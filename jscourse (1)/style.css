@@ -1,0 +1,34 @@
+body{
+  background-color : #b2bec3
+}
+
+.weather{
+  background-color : #b2bec3
+}
+
+.form, .greeting{
+  display: none
+}
+
+.showing{
+  display: block
+}
+
+@keyframes FadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.bgimage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: FadeIn 0.5s linear;
+}
